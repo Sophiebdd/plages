@@ -1,0 +1,68 @@
+/*page connexion*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.connexion {
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.connexion input[type="submit"],
+.connexion input[type="reset"] {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.connexion input[type="submit"]:hover,
+.connexion input[type="reset"]:hover {
+    background-color: #4CAF50;
+}
+
+.connexion input[type="reset"] {
+    background-color: orange;
+}
+
+.inscription {
+    margin-top: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.inscription input[type="submit"],
+.inscription input[type="reset"] {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.inscription input[type="submit"]:hover,
+.inscription input[type="reset"]:hover {
+    background-color: #4CAF50;
+}
+
+.inscription input[type="reset"] {
+    background-color: orange;
+}
+
+

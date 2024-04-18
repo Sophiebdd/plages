@@ -1,0 +1,119 @@
+body {
+    /*display: grid;
+    grid-template-columns: 1fr 3fr 1fr;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh; /* Pour occuper toute la hauteur de l'écran */
+    margin: 0;
+    padding: 0;
+    color: rgb(51, 51, 51)
+}
+
+.nav {
+    display:flex;
+    justify-content: space-between; 
+}
+
+
+.nav a button {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color:rgb(49, 49, 167);
+    margin-left: 30px;
+}
+
+.nav a button:hover{
+    cursor: pointer;
+    border: solid;
+    border-color: #3b22c9;
+}
+
+.nav a img {
+    width: 30px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.deco {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.page1{
+    background-image: url(./fondpage1.jpg);
+    opacity: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.page2{
+    background-image: url(./fondpage2.jpg);
+    opacity: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.page3{
+    background-image: url(./fondpage3.jpg);
+    opacity: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.page4{
+    background-image: url(./fondpage4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nav a:nth-of-type(1) button{
+    background-color: rgba(243, 242, 155, 0.7);
+}
+.nav a:nth-of-type(2) button{
+    background-color: rgba(243, 242, 196, 0.7);
+}
+.nav a:nth-of-type(3) button{
+    background-color: rgba(101, 152, 185, 0.7);
+}
+.nav a:nth-of-type(4) button{
+    background-color: rgba(81, 191, 235, 0.7);
+}
+.nav a:nth-of-type(5) button{
+    background-color: rgba(39, 168, 145, 0.7);
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif'
+}
+
+.liste{
+    background-color: rgba(243, 242, 196, 0.5);
+    color: #3b22c9;
+    border: none;
+    border-color: #3b22c9;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 900px;
+}
+
+.liste a {
+    text-decoration: none;
+    color: #030452;
+}
+
+
+
+
+
+
+
+
+
