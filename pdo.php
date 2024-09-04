@@ -4,7 +4,7 @@ function connexionBDD() {
     $servername = "localhost";
     $dbname = "gestionplages";
     $username = "root";
-    $password = "";
+    $password = "password";
     try {
         $connexion = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
         $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

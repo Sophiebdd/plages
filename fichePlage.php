@@ -14,7 +14,7 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
 
         // requête pour afficher les détails de CETTE plage
         $requetePlage = "SELECT plage.*, ville.* FROM plage 
-            INNER JOIN ville ON ville.ID_VILLE = plage.ID_PLAGE
+            INNER JOIN ville ON ville.ID_VILLE = plage.ID_VILLE
             WHERE plage.ID_PLAGE = :id_plage";
         $reqPrepareePlage = $connexion->prepare($requetePlage);
         $reqPrepareePlage->bindParam(':id_plage', $id);
